@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<plugins>
+    <plugin archetype ="AddContact" command="com.dltledgers.Handlers.ScriptingHandler" jar="DLT_PROTO-1.0-SNAPSHOT.jar"/>
+    <plugin archetype ="ListContactGroup" command="com.dltledgers.Handlers.ScriptingHandler" jar="DLT_PROTO-1.0-SNAPSHOT.jar"/>
+    <plugin archetype="ContactGroupPrint" command="com.dltledgers.Handlers.ContactGroup.ContactGroupListHandler" jar="DLT_PROTO-1.0-SNAPSHOT.jar"/>
+    <plugin archetype="ListContact" command="com.dltledgers.Handlers.ScriptingHandler" jar="DLT_PROTO-1.0-SNAPSHOT.jar"/>
+    <plugin archetype="AddContactGroup" command="com.dltledgers.Handlers.ScriptingHandler" jar="DLT_PROTO-1.0-SNAPSHOT.jar"/>
+    <plugin archetype="DeleteContactGroup" command="com.dltledgers.Handlers.ScriptingHandler" jar="DLT_PROTO-1.0-SNAPSHOT.jar"/>
+    <plugin archetype="DeleteContactGroupPlugin" command="com.dltledgers.Handlers.ContactGroup.DeleteContactGroupHandler" jar="DLT_PROTO-1.0-SNAPSHOT.jar"/>
+    <plugin archetype="DeleteContactPlugin" command="com.dltledgers.Handlers.Contact.ContactDeleteHandler" jar="DLT_PROTO-1.0-SNAPSHOT.jar"/>
+    <plugin archetype="AddContact" command="com.dltledgers.Handlers.ScriptingHandler" jar="DLT_PROTO-1.0-SNAPSHOT.jar"/>
+
+</plugins>

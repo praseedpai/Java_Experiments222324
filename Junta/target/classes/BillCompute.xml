@@ -1,0 +1,30 @@
+<bill>
+    <CostingFactors>
+        <compute>899</compute>
+        <containers-eks>255</containers-eks>
+        <containers-ecs>176</containers-ecs>
+        <containers-ecr>146</containers-ecr>
+        <amazon-elastic-block-storage-ebs>76</amazon-elastic-block-storage-ebs>
+        <amazon-simple-storage-service-s3>80</amazon-simple-storage-service-s3>
+    </CostingFactors>
+    <ChargeableFactors>
+        <compute>13.26</compute>
+        <containers-eks>13.26</containers-eks>
+        <containers-ecs>13.26</containers-ecs>
+        <containers-ecr>13.26</containers-ecr>
+        <amazon-elastic-block-storage-ebs>13.26</amazon-elastic-block-storage-ebs>
+        <amazon-simple-storage-service-s3>13.26</amazon-simple-storage-service-s3>
+        <managed-shared-cluster>23.88</managed-shared-cluster>
+        <enterprise-portal>23.88</enterprise-portal>
+        <query-editor>23.88</query-editor>
+        <import-export-data>23.88</import-export-data>
+        <ticket-support>23.88</ticket-support>
+    </ChargeableFactors>
+    <ControlParameters>
+        <plan-id>PLAN_1</plan-id>
+        <cost-apportionment-a>0.6</cost-apportionment-a>
+        <cost-apportionment-b>0.4</cost-apportionment-b>
+        <computation-model>AGGREGATE_COST_PRO_RATA</computation-model>
+        <total-amount>1000</total-amount>
+    </ControlParameters>
+</bill>

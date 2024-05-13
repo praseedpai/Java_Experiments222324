@@ -1,0 +1,21 @@
+<bill>
+    <plan>
+        <customer-id>1001</customer-id>
+        <service-period>03/02/23—02/03/23</service-period>
+        <plan-name>Usage Based Subscription Plan</plan-name>
+        <tier-name>Startup</tier-name>
+        <plan-price>4000</plan-price>
+        <cluster-size>Small</cluster-size>
+        <no-of-replica>1</no-of-replica>
+        <no-of-shard>2</no-of-shard>
+        <cost-unit-per-node>2</cost-unit-per-node>
+        <resource-rate>5</resource-rate>
+        <storage-rate>10</storage-rate>
+        <network-rate>15</network-rate>
+    </plan>
+    <usage>
+        <cluster_usage_time_in_hour>24*30</cluster_usage_time_in_hour>
+        <network_usage_time_in_hour>12</network_usage_time_in_hour>
+        <storage_usage_in_gb>12</storage_usage_in_gb>
+    </usage>
+</bill>
