@@ -1,0 +1,20 @@
+A Simple File Transfer Protocol using C/C++ ( works on Windows and GNU Linux )
+==============================================================================
+
+//---- Compile the Server ( Server.cpp ) Payload.cpp is a shared file
+cl Server.cpp Payload.cpp user32.lib ws2_32.lib ( This will produce Server.exe )
+
+You can invoke Server using > Server.exe <portid>
+
+//----------- Compile the Client ( Wire.cpp )
+cl wire.cpp Payload.cpp user32.lib ws2_32.lib
+
+Wire.exe <filename> <servername> <portid>
+
+//----------- You can open a new window to run Server
+
+start Server 3500
+
+//--------------- Invoke the Client
+
+D:\FTP_CODE>wire Server.obj localhost 3500
